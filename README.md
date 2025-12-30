@@ -11,16 +11,16 @@ The dataset 2023 Marathon Results (https://www.kaggle.com/code/runningwithrock/2
 Each record represents a runner in a specific race and includes information such as runner name, gender, age (when available), race name, and finish time in seconds.
 
 ## Project Structure
-marathon-sql-project/
-├── data/
-│   └── Results.csv
-├── db/
-│   └── marathon.db
-├── sql/
-│   ├── 01_schema.sql
-│   ├── 02_cleaning.sql
-│   └── 03_analysis.sql
-└── README.md
+    marathon-sql-project/
+    ├── data/
+    │   └── Results.csv
+    ├── db/
+    │   └── marathon.db
+    ├── sql/
+    │   ├── 01_schema.sql
+    │   ├── 02_cleaning.sql
+    │   └── 03_analysis.sql
+    └── README.md
 
 ## Analysis Overview
 
@@ -45,13 +45,14 @@ The dataset is strongly male-dominated, while non-binary and undefined categorie
 The number of runners and the average finish time were computed for each marathon.
 Below are the top 5 races by number of participants:
 
-race_name                                                               |runners|avg_minutes|best_minutes
-------------------------------------------------------------------------+-------+-----------+------------
-NYC Marathon                                                            |  51290|      280.1|       125.0
-Chicago Marathon                                                        |  48156|      260.9|       120.6
-Boston Marathon                                                         |  26600|      222.5|       125.9
-LA Marathon                                                             |  16950|      332.6|       133.3
-Honolulu Marathon                                                       |  15044|      377.5|       135.7
+| Race | Runners | Avg Finish Time (min) | Best Finish Time (min) |
+|------|--------:|----------------------:|-----------------------:|
+| NYC Marathon | 51,290 | 280.1 | 125.0 |
+| Chicago Marathon | 48,156 | 260.9 | 120.6 |
+| Boston Marathon | 26,600 | 222.5 | 125.9 |
+| LA Marathon | 16,950 | 332.6 | 133.3 |
+| Honolulu Marathon | 15,044 | 377.5 | 135.7 |
+
 
 Major international marathons (NY, Chigago and Boston) attract significantly more participants.
 
