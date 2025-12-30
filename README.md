@@ -60,13 +60,14 @@ Major international marathons (NY, Chigago and Boston) attract significantly mor
 Race winners were identified as the 1st place finisher in each marathon.
 Athletes were ranked by the number of race wins, with age used as a tie-breaker.
 
-runner_name   |age|wins_2023|
---------------+---+---------+
-Gary Krugger  | 38|        6|
-Bob Stepp     | 62|        4|
-Denise Kaufman| 61|        4|
-?? ?          | 52|        4|
-Jason Baer    | 45|        4|
+| Athlete | Age | Wins (2023) |
+|--------|----:|------------:|
+| Gary Krugger | 38 | 6 |
+| Bob Stepp | 62 | 4 |
+| Denise Kaufman | 61 | 4 |
+| Unknown Name | 52 | 4 |
+| Jason Baer | 45 | 4 |
+
 
 A small number of athletes dominate race wins across multiple marathons.
 Some inconsistencies in runner names highlight data quality limitations.
@@ -78,13 +79,13 @@ Finish time distributions were analyzed using percentiles:
 - **p50**: median finishing time
 - **p90**: finishing time below which 90% of runners completed the race
 
-race_name                                                               |runners|p10_h|p50_h|p90_h|
-------------------------------------------------------------------------+-------+-------+-------+-------+
-NYC Marathon                                                            |  51290|    3.5|    4.5|    6.0|
-Chicago Marathon                                                        |  48156|    3.2|    4.2|    5.8|
-Boston Marathon                                                         |  26600|    2.9|    3.6|    4.8|
-LA Marathon                                                             |  16950|    3.9|    5.5|    7.3|
-Honolulu Marathon                                                       |  15044|    4.3|    6.1|    8.6|
+| Race | Runners | p10 (h) | p50 (h) | p90 (h) |
+|------|--------:|--------:|--------:|--------:|
+| NYC Marathon | 51,290 | 3.5 | 4.5 | 6.0 |
+| Chicago Marathon | 48,156 | 3.2 | 4.2 | 5.8 |
+| Boston Marathon | 26,600 | 2.9 | 3.6 | 4.8 |
+| LA Marathon | 16,950 | 3.9 | 5.5 | 7.3 |
+| Honolulu Marathon | 15,044 | 4.3 | 6.1 | 8.6 |
 
 Boston Marathon shows a narrower distribution, indicating a more homogeneous and competitive field,
 while LA and Honolulu marathons display wider performance variability.
@@ -93,13 +94,14 @@ while LA and Honolulu marathons display wider performance variability.
 Race competitiveness was approximated using the time gap between the 1st and 10th finishers.
 Smaller gaps indicate a more competitive elite field.
 
-race_name                                                             |race_competitiveness_time|
-----------------------------------------------------------------------+-------------------------+
-Indianapolis Monumental Marathon                                      |                      2.5|
-Boston Marathon                                                       |                      4.4|
-California International Marathon                                     |                      4.7|
-Grandma's Marathon                                                    |                      4.9|
-McKirdy Micro Marathon - NY II                                        |                      4.9|
+| Race | Gap 1st–10th (min) |
+|------|------------------:|
+| Indianapolis Monumental Marathon | 2.5 |
+| Boston Marathon | 4.4 |
+| California International Marathon | 4.7 |
+| Grandma's Marathon | 4.9 |
+| McKirdy Micro Marathon – NY II | 4.9 |
+
 
 Race competitiveness was approximated using the time gap between the 1st and 10th finishers.
 Smaller gaps indicate a more competitive elite field.
@@ -122,13 +124,13 @@ and possible ambiguities in runner identification based on names.
 
 ## Fun Facts: World Marathon Majors Context
 Majors (WMM), the most prestigious marathon races worldwide are:
-🇺🇸 Boston Marathon 
-🇬🇧 London Marathon
-🇩🇪 Berlin Marathon
-🇺🇸 Chicago Marathon 
-🇺🇸 New York City Marathon 
-🇯🇵 Tokyo Marathon
-🇦🇺 Sydney Marathon (officially added as a Major starting in 2025)
+- 🇺🇸 Boston Marathon  
+- 🇬🇧 London Marathon  
+- 🇩🇪 Berlin Marathon  
+- 🇺🇸 Chicago Marathon  
+- 🇺🇸 New York City Marathon  
+- 🇯🇵 Tokyo Marathon  
+- 🇦🇺 Sydney Marathon *(officially added as a Major starting in 2025)*  
 
 ### Participation Size
 - NYC, London, Chicago and Berlin typically attract 45,000 to 55,000 finishers each.
@@ -137,18 +139,21 @@ Majors (WMM), the most prestigious marathon races worldwide are:
 - Sydney, prior to becoming a Major, hosted fewer runners but is expected to grow significantly.
 
 ### Key Characteristics
-- New York City Marathon
-    > Largest marathon in the world (≈ 50,000+ finishers)
-    > Highly heterogeneous field
-    > More tactical race, with slower winning times
-- Chicago Marathon
-    > Flat and fast course
-    > Frequently used for personal bests
-    > Large field with wide performance variability
-- Boston Marathon
-    > Qualification-based entry
-    > Smaller but more selective field
-    > Known for high competitiveness despite slower absolute times
+- **New York City Marathon**
+  - Largest marathon in the world (≈ 50,000+ finishers)
+  - Highly heterogeneous field
+  - More tactical race, with slower winning times
+
+- **Chicago Marathon**
+  - Flat and fast course
+  - Frequently used for personal bests
+  - Large field with wide performance variability
+
+- **Boston Marathon**
+  - Qualification-based entry
+  - Smaller but more selective field
+  - Known for high competitiveness despite slower absolute times
+
 
 ### Why This Matters
 The observed patterns in the 2023 dataset are consistent with the historical characteristics of major U.S. marathons.
