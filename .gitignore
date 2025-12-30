@@ -1,0 +1,8 @@
+# Data files
+data/*.csv
+
+# Database files
+db/*.db
+
+# OS files
+.DS_Store
